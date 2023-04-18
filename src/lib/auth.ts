@@ -7,11 +7,11 @@ function getGoogleCredientials() {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 
-  if (!clientId || clientId.length == 0) {
+  if (!clientId || clientId.length === 0) {
     throw new Error("Missing GOOGLE_CLIENT_ID");
   }
 
-  if (!clientSecret || clientSecret.length == 0) {
+  if (!clientSecret || clientSecret.length === 0) {
     throw new Error("Missing GOOGLE_CLIENT_ID");
   }
   return { clientId, clientSecret };
