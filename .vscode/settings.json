@@ -1,5 +1,5 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "cSpell.words": ["clsx", "Loadiing", "lucide"]
+  "cSpell.words": ["clsx", "hookform", "Loadiing", "lucide", "tailwindcss"]
 }
